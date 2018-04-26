@@ -81,9 +81,9 @@ $(".row").on('click', '.deleteBtn', function() {
 });
 
 $("body").on('click', '.editBtn', function() {
-    const editTitle = $("#editTitle").val();
-    const editRating = $("#editRating").val();
-    let movieEditId = $(".editId")["0"].innerText;
+    const editTitle = $(this).parent().parent()["0"].children[1].children["0"]["0"].value;
+    const editRating = $(this).parent().parent()["0"].children[1].children["0"]["1"].value;
+    let movieEditId = $(this).parent().parent()["0"].children[1].children["1"].innerText;
 
     console.log(movieEditId);
     console.log(editRating);
@@ -93,5 +93,4 @@ $("body").on('click', '.editBtn', function() {
     editMovie({title: editTitle, rating: editRating, id: movieEditId});
     location.reload();
 });
-
 
