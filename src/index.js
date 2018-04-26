@@ -20,7 +20,7 @@ getMovies().then((movies) => {
           `<div class="col-6">
             <div class="card">
                 <div class="card-body">
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal${id}">
+                    <button type="button" class="btn btn-primary editBtn" data-toggle="modal" data-target="#modal${id}">
                     Edit
                     </button>
                     <button class="deleteBtn">x</button>

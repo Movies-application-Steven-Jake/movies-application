@@ -1,5 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 html, body {
     height: 100%;
+    background-image: url("CinemaBackground.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .container {
@@ -15,4 +24,49 @@ table {
 
 .dbId, .editId {
     display: none;
+}
+
+.deleteBtn{
+    float: right;
+}
+
+div.card-body{
+    padding: 0 0 20px 0;
+    background-color: #F8D281;
+    border: 2px solid #2E0604;
+}
+
+.editBtn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid #2E0604;
+}
+h5.card-title{
+    clear: both;
+}
+button.deleteBtn{
+    padding: 3px;
+    height: 2em;
+    width: 2em;
+    background-color: lightcoral;
+    border-radius: 25%;
+    border: 1px solid black;
+}
+
+#createBtn{
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#movieRating{
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#movieTitle{
+    border-radius: 10px;
+    border: 1px solid black;
+}
+h1, .loadingMessage{
+    color: whitesmoke;
 }
