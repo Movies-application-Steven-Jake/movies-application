@@ -36,7 +36,7 @@ div.card-body{
     border: 2px solid #2E0604;
 }
 
-.editBtn{
+#editBtn{
     position: absolute;
     top: 0;
     left: 0;
@@ -45,6 +45,7 @@ div.card-body{
 h5.card-title{
     clear: both;
 }
+
 button.deleteBtn{
     padding: 3px;
     height: 2em;
