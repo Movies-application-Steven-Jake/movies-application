@@ -67,3 +67,7 @@ button.deleteBtn{
 h1, .loadingMessage{
     color: whitesmoke;
 }
+
+div.card{
+    margin-top: 1em;
+}
