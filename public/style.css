@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 html, body {
     height: 100%;
     background-image: url("CinemaBackground.jpg");
@@ -13,9 +10,8 @@ html, body {
 
 .container {
     position: relative;
-    top: 50%;
-    transform: translateY(-100%);
     text-align: center;
+    margin-top: 30px;
 }
 
 table {
@@ -70,4 +66,8 @@ button.deleteBtn{
 }
 h1, .loadingMessage{
     color: whitesmoke;
+}
+
+div.card{
+    margin-top: 1em;
 }
