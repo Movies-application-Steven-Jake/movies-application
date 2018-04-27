@@ -63,6 +63,7 @@ getMovies().then((movies) => {
 
 function displayLoading() {
     $(".loadingMessage").css("display", "none");
+    $(".formBoxes").removeClass("formBoxes");
     $("h1").text("Movie List");
 }
 
